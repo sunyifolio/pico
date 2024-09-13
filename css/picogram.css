@@ -1,0 +1,123 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard';  
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.section1 {
+    width: 1920px;
+    height: 960px;
+    background: url('../img/피코그램1.png') center center / cover no-repeat aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .text_0{
+    color: #fff;
+}
+.section1 .text_0 h1 {
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 46px;
+} 
+.text_0 p {
+    font-size: 20px;
+    text-align: center;
+    line-height:30px;
+}
+.section2_content {
+    width: 1920px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.section2_content .section2 {
+    margin: 160px 0;
+}
+ h2{
+    font-size: 48px; 
+    line-height: 62px;
+    margin-bottom: 40px; 
+}
+.section2_content .section2 .aa {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section2_content .section2 .aa .item_1 {
+    width: 400px;
+}
+.section2_content .section2 .aa .item_1 img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.section2_content .section2 .aa .item_1 span {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+.section2_content .section2 .aa .item_1 p{
+    color: #555555;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    text-align: center;
+}
+.section3 {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+.section3 .content_1 {
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    padding: 160px 0;
+}
+/* .seciton3 .content_1 .text {
+
+} */
+.section3 .content_1 .text {
+    margin-top: 100px;
+}
+.section3 .content_1 .text span {
+    font-size: 20px;
+    line-height: 62px;
+}
+.section3 .content_1 .text p {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 50px;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+.section3 .content_1 .text a {
+    display: block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.section3 .content_1 .image{
+    width: 620px;
+}
+.section3 .content_1 .image img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
